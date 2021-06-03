@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Charm:wght@400;700&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+.Container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.NameTitle {
+  font-family: 'Charm', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.NameSubTitle {
+  font-family: 'Charm', cursive;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.imageTitleLeft img{
+  width: 200px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imageTitleRight img{
+  width: 200px;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width : 720px) {
+  .NameTitle {
+    font-size: 2.5rem;
+  }
+  
+  .NameSubTitle {
+    font-size: 1.8rem;
+    margin-top: 2%;
+  }
+
+  .imageTitleLeft img{
+    width: 100px;
+  }
+  
+  .imageTitleRight img{
+    width: 100px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .NameTitle {
+    font-size: 1.6rem;
+  }
+  
+  .NameSubTitle {
+    font-size: 1rem;
+    margin-top: 1%;
+  }
+
+  .imageTitleLeft img{
+    width: 100px;
+  }
+  
+  .imageTitleRight img{
+    width: 100px;
+  }
+}

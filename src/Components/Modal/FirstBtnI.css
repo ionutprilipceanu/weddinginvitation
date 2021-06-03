@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Charm:wght@400;700&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+.btn-alls {
+  margin:-15px 0 0 0;
+  margin-top: 30px !important;
+}
+
+.btn-gos {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #282C34;
+  border-color: black !important;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: smaller;
+  border: 2px solid black;
+}
+
+.btn-gos:hover{
+  color: white;
+  text-decoration: none;
+  opacity: 0.85;
+  transition-duration: 0.8s;
+}
+
+.modalOpen{
+  position: fixed;
+  top:15% !important;
+  right:2.5%;
+  left: 2.5%;
+  bottom: 5%;
+  z-index: 9999 !important;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 8px 8px 16px rgba(30, 30, 30, 0.3);
+}
+
+.bgRoze img{
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 60%;
+}
+
+.bgflower img{
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 30%;
+}
+
+.textulPrimar {
+  font-family: 'Charm', cursive;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+  margin-top: 2%;
+
+}
+
+
+.CloseModal{
+  z-index: 9999 !important;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 2px;
+  background-color: #282C34;
+  border-color: black !important;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  border: 2px solid black;
+  width: 35px;
+  height: 35px;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.pozaEditLeft  img{
+  width: 30%;
+  position: absolute;
+  top:2%;
+  left: 2%;
+
+}
+
+.pozaEditRight img{
+  width: 30%;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+}
+
+@media screen and (max-width: 1450px) {
+
+  .ModalTitleBt{
+    font-size: 2rem !important;
+  }
+  
+  .ModalTextBtTop {
+    font-size: 1rem !important;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: -1.5%;
+  }
+
+  .ModalTextBt{
+    font-size: 1rem !important;
+    text-align: center;
+    margin-top: -1.5%;
+  }
+
+  .ModalTextBtBottom{
+    font-size: 1rem !important;
+    text-align: center;
+    margin-top: -2.5%;
+  }
+  
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .ModalTitleBt{
+    font-size: 2rem !important;
+  }
+  
+  .ModalTextBtTop {
+    font-size: 1rem !important;
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: -2.5%;
+  }
+
+  .ModalTextBt{
+    font-size: 1rem !important;
+    text-align: center;
+    margin-top: -2.5%;
+  }
+
+  .ModalTextBtBottom{
+    font-size: 1rem !important;
+    text-align: center;
+    margin-top: -2.5%;
+  }
+  
+}
+
+@media screen and (max-width: 860px) {
+
+  .ModalTextBtBottom{
+    bottom: 2.5%;
+  }
+  
+}
+
+@media screen and (max-width: 780px) {
+
+  .card-final{
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .ModalTitleBt{
+    font-size: 2.2rem !important;
+  }
+  
+  .ModalTextBtTop {
+    font-size: 1.3rem !important;
+    text-align: center;
+    margin-top: 7.5%;
+    margin-bottom: -2.5%;
+  }
+
+  .ModalTextBt{
+    font-size: 1.3rem !important;
+    text-align: center;
+    margin-top: -2.5%;
+  }
+
+  .ModalTextBtBottom{
+    font-size: 1.3rem !important;
+    text-align: center;
+    margin-top: -5%;
+  }
+  
+}
+
+@media screen and (max-width: 650px) {
+
+  .card-final{
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .ModalTitleBt{
+    font-size: 2rem !important;
+  }
+  
+  .ModalTextBtTop {
+    font-size: 1.2rem !important;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: -7.5%;
+  }
+
+  .ModalTextBt{
+    font-size: 1.2rem !important;
+    text-align: center;
+    margin-top: -2.5%;
+  }
+
+  .ModalTextBtBottom{
+    font-size: 1.2rem !important;
+    text-align: center;
+    margin-top: -10%;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+
+  .ModalTitleBt{
+    font-size: 1.75rem !important;
+  }
+  
+  .ModalTextBtTop{
+    font-size: 1rem !important;
+    text-align: center; 
+    margin-top: 7%;
+    margin-bottom: -5%;
+  }
+
+  .ModalTextBt{
+    font-size: 1rem !important;
+    text-align: center;
+    margin-top: -5%;
+  }
+
+  .ModalTextBtBottom{
+    font-size: 1rem !important;
+    text-align: center;
+    margin-top: -5%;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+
+  .ModalTitleBt{
+    font-size: 1.45rem !important;
+  }
+  
+  .ModalTextBtTop {
+    font-size: 0.95rem !important;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: -2.5%;
+  }
+
+  .ModalTextBt{
+    font-size: 0.95rem !important;
+    text-align: center;
+    margin-top: -2.5%;
+  }
+
+  .ModalTextBtBottom{
+    font-size: 0.95rem !important;
+    text-align: center;
+    margin-top: -5%;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+
+  .ModalTitleBt{
+    font-size: 1.45rem !important;
+  }
+  
+  .ModalTextBtTop {
+    font-size: 0.85rem !important;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: -2.5%;
+  }
+
+  .ModalTextBt{
+    font-size: 0.85rem !important;
+    text-align: center;
+    margin-top: -2.5%;
+  }
+
+  .ModalTextBtBottom{
+    font-size: 0.85rem !important;
+    text-align: center;
+    margin-top: -5%;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .ModalTitleBt{
+    font-size: 1.2rem !important;
+  }
+  
+  .ModalTextBtTop {
+    font-size: 0.75rem !important;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: -7.5%;
+  }
+
+  .ModalTextBt{
+    font-size: 0.75rem !important;
+    text-align: center;
+    margin-top: -2.5%;
+  }
+
+  .ModalTextBtBottom{
+    font-size: 0.75rem !important;
+    text-align: center;
+    margin-top: -5%;
+  }
+
+}
+
+@media screen and (max-width: 280px) {
+
+  .ModalTitleBt{
+    font-size: 1.2rem !important;
+  }
+  
+  .ModalTextBtTop {
+    font-size: 0.75rem !important;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: -2.5%;
+  }
+
+  .ModalTextBt{
+    font-size: 0.75rem !important;
+    text-align: center;
+    margin-top: -2.5%;
+  }
+
+  .ModalTextBtBottom{
+    font-size: 0.75rem !important;
+    text-align: center;
+    margin-top: -5%;
+  }
+
+}

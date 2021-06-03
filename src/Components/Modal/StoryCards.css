@@ -1,0 +1,153 @@
+.card-final{
+  display: flex;
+  flex-direction: row;
+  border: none;
+  justify-content: center;
+  padding-bottom: 3%;
+  background-color: rgb(240, 240, 240);
+}
+
+.div {
+  display: flex;
+  flex-direction: row;
+}
+
+.carder_body {
+  margin: 2% 2% 2% 2%;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  box-shadow: 8px 8px 16px rgba(30, 30, 30, 0.3);
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+
+.carder_body:hover {
+  translate: 20px;
+  transform: translateY(-30px)
+}
+
+.carder_body h1, p {
+  color: black;
+}
+
+.skillsContainer {
+  background-color: rgb(240, 240, 240);
+  z-index: 9999;
+}
+
+.cardSkills {
+  text-align: center;
+  font-size: 35px;
+  padding: 2% 0 0 0 ;
+}
+
+.cardSubtitle {
+  text-align: center;
+  font-size: 20px;
+  margin: 2% 0 0 0 ;
+}
+
+.cardSubtitle {
+  font-size: 20px;
+  margin: 2% 0 0 0 ;
+}
+
+.bottomLine {
+  width: 100%;
+  background-color: #DFDFDF;
+  height: 1px;
+  margin: 5% 0;
+}
+
+.cardText {
+  text-align: justify;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .Content{
+    width: 100%;
+    display: flex;
+
+  }
+
+  .Section{
+    width: 95%;
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .profilePhotos {
+    width: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .card {
+    margin:2% !important;
+    width: 96% !important;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .card-final{
+    margin: 0 5%;
+  }
+
+  .card-final{
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .carder_body {
+    margin: 2% auto;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Content{
+    width: 100%;
+    display: flex;
+
+  }
+
+  .Section{
+    width: 95%;
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .profilePhotos {
+    width: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .card {
+    margin:2% !important;
+    width: 96% !important;
+  }
+
+  .card-final{
+    display: flex;
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .card-final{
+    display: flex;
+    flex-direction: column !important;
+  }
+
+}
+
