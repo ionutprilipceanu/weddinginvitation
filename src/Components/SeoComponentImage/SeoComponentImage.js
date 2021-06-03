@@ -22,7 +22,7 @@ function SeoComponent() {
         <meta property="og:image" content={imagineFundal} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:type" content="image.jpeg" />
         {/* <link rel="icon" href={favicon} /> */}
 
         {/* <!-- Open Graph / Facebook --> */}
