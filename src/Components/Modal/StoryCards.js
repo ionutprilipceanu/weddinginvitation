@@ -23,7 +23,7 @@ function StoryCards() {
                   <div className="bottomLine"></div>
                   <Card.Text className="cardText">
 
-                    Pentru că ne sunteți o persoană dragă nouă, ți-am pregătit o surpiză mică, dă un click pentru a afla cât mai multe detalii...
+                    Pentru că ne sunteți o persoană dragă nouă, ți-am pregătit o surpiză mică, dă un click pentru a afla mai multe detalii...
 
                   </Card.Text>
 
